@@ -4,14 +4,18 @@ This file is a raw results log and master index. For the hypothesis, design rati
 
 ## Quick Index
 
-| ID | Task | N | Output Mode | Status | Per-experiment notebook | Key finding |
-|----|------|---|-------------|--------|------------------------|-------------|
-| E-01 | Circle (endpoint) | 3 | **Python Code** | ✅ | [E-01-pilot.md](experiments/E-01-pilot.md) | Pipeline validated; N=3 too easy |
-| E-DEMO-02 | Circle (waypoints) | 3 | **Python Code** | ✅ | — | 47× improvement; waypoints close execution gap |
-| E-02 | Circle (waypoints) | 3, 6 | **Python Code** | ✅ | [E-02-circle-scale.md](experiments/E-02-circle-scale.md) | All reprs ~equal; task is state-independent |
-| E-03 v1 | Rendezvous | 3, 6 | **Python Code** | ❌ Stale | [E-03-rendezvous.md](experiments/E-03-rendezvous.md) | Flawed reward — drones collide |
-| E-03 v2 | Rendezvous | 3, 6 | **Python Code** | ✅ Complete | [E-03-rendezvous.md](experiments/E-03-rendezvous.md) | LLMs offload arithmetic to Python `sum()` |
-| E-04 | Rendezvous | 3, 6 | **Direct JSON** | ✅ Complete | [E-04-rendezvous-direct.md](experiments/E-04-rendezvous-direct.md) | Direct JSON exposes arithmetic reasoning failures |
+| ID | Task | N | Output Mode | Status | Notebook |
+|----|------|---|-------------|--------|----------|
+| **Current** | | | | | |
+| E-04 | Rendezvous | 3, 6 | **Direct JSON** | ✅ | [E-04.md](notebooks/E-04-rendezvous-direct.md) |
+| E-06 | Rendezvous (Jitter) | 3, 6 | **Direct JSON** | ✅ | — |
+| E-07 | Rendezvous (Fixed) | 3, 6 | **Direct JSON** | ✅ | — |
+| E-08 | Multi-Task Sweep | 3, 6 | **Direct JSON** | ✅ | — |
+| **Archived (Legacy)** | | | | | |
+| E-01 | Circle (endpoint) | 3 | Python Code | 📦 Archived | [E-01.md](notebooks/E-01-pilot.md) |
+| E-02 | Circle (waypoints) | 3, 6 | Python Code | 📦 Archived | [E-02.md](notebooks/E-02-circle-scale.md) |
+| E-03 | Rendezvous | 3, 6 | Python Code | 📦 Archived | [E-03.md](notebooks/E-03-rendezvous.md) |
+| E-05 | Code Jitter Test | 3 | Python Code | 📦 Archived | — |
 
 ---
 

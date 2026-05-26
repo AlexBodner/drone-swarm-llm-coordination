@@ -5,15 +5,21 @@ This repository contains the codebase and experiment results for the thesis on L
 ## Repository Structure
 
 - `swarm-llm-experiment/`: Main project directory.
-  - `full_trial_demo.py`: Main demo script showing the full pipeline (Task -> Prompt -> Plan -> Simulation -> Video).
-  - `waypoint_demo.py`: Demo focusing on waypoint tracking.
-  - `simulator.py`: Drone simulation wrapper.
-  - `llm_connector.py`: Groq/LLM integration.
-  - `prompt_builder.py`: Prompt engineering logic.
-  - `experiments_scripts/`: Collection of experimental runner scripts.
-  - `results_archive/`: Archived results from previous experiments.
-- `experiments/`: Per-experiment documentation and notebooks.
-- `videos/`: Generated videos and visualizations.
+  - `src/`: Core simulation and planning modules.
+  - `experiments_scripts/`: **Current** experiments using **Direct JSON Waypoint** generation.
+  - `full_trial_demo.py`: Main demo script.
+- `docs/`: Project documentation and archives.
+  - `notebooks/`: Detailed analysis and hypotheses for each experiment.
+  - `archive/`:
+    - `code_generation_legacy/`: Previous phase experiments that used **Python Code Generation**.
+    - `results/`: Processed data and plots from current experiments.
+
+## Methodology
+
+This project evolved through two distinct phases:
+
+1.  **Legacy (Code Generation)**: The LLM generated Python code to calculate plans. While effective, this allowed the LLM to offload complex arithmetic to the Python interpreter.
+2.  **Current (Direct Waypoints)**: The LLM generates timed 4D waypoint trajectories (`t, x, y, z`) directly in JSON. This provides a more rigorous test of the LLM's spatial reasoning and arithmetic capabilities.
 
 ## Getting Started
 
