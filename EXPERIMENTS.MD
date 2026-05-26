@@ -4,14 +4,14 @@ This file is a raw results log and master index. For the hypothesis, design rati
 
 ## Quick Index
 
-| ID | Task | N | Status | Per-experiment notebook | Key finding |
-|----|------|---|--------|------------------------|-------------|
-| E-01 | Circle (single endpoint) | 3 | ✅ | [E-01-pilot.md](experiments/E-01-pilot.md) | Pipeline validated; N=3 too easy |
-| E-DEMO-02 | Circle (waypoints) | 3 | ✅ | — | 47× improvement; waypoints close execution gap |
-| E-02 | Circle (waypoints, scale) | 3, 6 | ✅ | [E-02-circle-scale.md](experiments/E-02-circle-scale.md) | All reprs ~equal; task is state-independent |
-| E-03 v1 | Rendezvous (waypoints) | 3, 6 | ❌ Stale | [E-03-rendezvous.md](experiments/E-03-rendezvous.md) | Flawed reward — drones collide |
-| E-03 v2 | Rendezvous (waypoints, fixed reward) | 3, 6 | ✅ Complete | [E-03-rendezvous.md](experiments/E-03-rendezvous.md) | aggregate→confound; natural_language fails; raw/relative best probes |
-| E-04 | Rendezvous (direct JSON, no code) | 3, 6 | ✅ Complete | [E-04-rendezvous-direct.md](experiments/E-04-rendezvous-direct.md) | Validity drops to 70%; relative fails (0% valid); raw causes persistent collisions |
+| ID | Task | N | Output Mode | Status | Per-experiment notebook | Key finding |
+|----|------|---|-------------|--------|------------------------|-------------|
+| E-01 | Circle (endpoint) | 3 | **Python Code** | ✅ | [E-01-pilot.md](experiments/E-01-pilot.md) | Pipeline validated; N=3 too easy |
+| E-DEMO-02 | Circle (waypoints) | 3 | **Python Code** | ✅ | — | 47× improvement; waypoints close execution gap |
+| E-02 | Circle (waypoints) | 3, 6 | **Python Code** | ✅ | [E-02-circle-scale.md](experiments/E-02-circle-scale.md) | All reprs ~equal; task is state-independent |
+| E-03 v1 | Rendezvous | 3, 6 | **Python Code** | ❌ Stale | [E-03-rendezvous.md](experiments/E-03-rendezvous.md) | Flawed reward — drones collide |
+| E-03 v2 | Rendezvous | 3, 6 | **Python Code** | ✅ Complete | [E-03-rendezvous.md](experiments/E-03-rendezvous.md) | LLMs offload arithmetic to Python `sum()` |
+| E-04 | Rendezvous | 3, 6 | **Direct JSON** | ✅ Complete | [E-04-rendezvous-direct.md](experiments/E-04-rendezvous-direct.md) | Direct JSON exposes arithmetic reasoning failures |
 
 ---
 
