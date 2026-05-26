@@ -1,0 +1,9 @@
+{
+  "best_seed": 3,
+  "worst_seed": 0,
+  "criterion": "max/min average reward across raw+relative for seeds where both are valid",
+  "videos": [
+    "results_e08_circle_n6_5seeds/comparison_videos/n6_circle_seed3_raw_vs_relative.mp4",
+    "results_e08_circle_n6_5seeds/comparison_videos/n6_circle_seed0_raw_vs_relative.mp4"
+  ]
+}

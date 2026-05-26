@@ -1,0 +1,18 @@
+[
+  {
+    "representation": "raw",
+    "seed": 0,
+    "original_reward": -0.7460507210679912,
+    "replay_reward": -0.7460507210679912,
+    "valid": true,
+    "video": "/Users/alexanderbodner/Documents/Udesa/5to/tesis/experimentos drones + llm/swarm-llm-experiment/results_e07/best_videos_n6/n6_raw_best_seed0.mp4"
+  },
+  {
+    "representation": "relative",
+    "seed": 1,
+    "original_reward": -0.679071595464185,
+    "replay_reward": -0.679071595464185,
+    "valid": true,
+    "video": "/Users/alexanderbodner/Documents/Udesa/5to/tesis/experimentos drones + llm/swarm-llm-experiment/results_e07/best_videos_n6/n6_relative_best_seed1.mp4"
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "config": {
+    "task": "circle",
+    "n_drones": 6,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "output_mode": "direct",
+    "position_jitter": 0.5
+  },
+  "summary": {
+    "raw": {
+      "mean_reward": -0.5118252600858014,
+      "std_reward": 0.5839624565886685,
+      "mean_best_reward": -0.4778225074161197,
+      "validity_rate": 1.0,
+      "crash_rate": 0.0,
+      "n_trials": 5,
+      "n_valid": 5,
+      "mean_latency_s": 24.235209226608276,
+      "mean_min_dist_m": 0.07636,
+      "min_min_dist_m": 0.0398,
+      "mean_collision_fraction": 0.19692,
+      "collision_trial_rate": 1.0
+    },
+    "relative": {
+      "mean_reward": -1.0423706191239945,
+      "std_reward": 1.0121846367434308,
+      "mean_best_reward": -0.6885496316048789,
+      "validity_rate": 0.8,
+      "crash_rate": 0.0,
+      "n_trials": 5,
+      "n_valid": 4,
+      "mean_latency_s": 86.14740762710571,
+      "mean_min_dist_m": 0.09029999999999999,
+      "min_min_dist_m": 0.055,
+      "mean_collision_fraction": 0.043375,
+      "collision_trial_rate": 1.0
+    }
+  },
+  "per_seed": {
+    "0": {
+      "raw": {
+        "valid": true,
+        "reward": -0.05834935434920018,
+        "latency_s": 3.245512008666992,
+        "n_waypoints": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "relative": {
+        "valid": true,
+        "reward": -2.2110342163364485,
+        "latency_s": 46.922008752822876,
+        "n_waypoints": {
+          "0": 5,
+          "1": 6,
+          "2": 5,
+          "3": 6,
+          "4": 6,
+          "5": 5
+        }
+      },
+      "winner": "raw"
+    },
+    "1": {
+      "raw": {
+        "valid": true,
+        "reward": -1.4020724692200408,
+        "latency_s": 33.9458429813385,
+        "n_waypoints": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5
+        }
+      },
+      "relative": {
+        "valid": true,
+        "reward": -0.035661364238952234,
+        "latency_s": 103.54342913627625,
+        "n_waypoints": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 4
+        }
+      },
+      "winner": "relative"
+    },
+    "2": {
+      "raw": {
+        "valid": true,
+        "reward": -1.0211074725692186,
+        "latency_s": 26.099863052368164,
+        "n_waypoints": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "relative": {
+        "valid": false,
+        "reward": null,
+        "latency_s": 51.008543968200684,
+        "n_waypoints": null
+      },
+      "winner": "raw"
+    },
+    "3": {
+      "raw": {
+        "valid": true,
+        "reward": -0.03752107054791478,
+        "latency_s": 45.07977104187012,
+        "n_waypoints": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6
+        }
+      },
+      "relative": {
+        "valid": true,
+        "reward": -0.037889732857414454,
+        "latency_s": 110.86306405067444,
+        "n_waypoints": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5
+        }
+      },
+      "winner": "raw"
+    },
+    "4": {
+      "raw": {
+        "valid": true,
+        "reward": -0.04007593374263254,
+        "latency_s": 12.805057048797607,
+        "n_waypoints": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5
+        }
+      },
+      "relative": {
+        "valid": true,
+        "reward": -1.8848971630631628,
+        "latency_s": 118.39999222755432,
+        "n_waypoints": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5
+        }
+      },
+      "winner": "raw"
+    }
+  }
+}

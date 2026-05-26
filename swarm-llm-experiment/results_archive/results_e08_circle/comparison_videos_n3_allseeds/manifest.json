@@ -1,0 +1,35 @@
+{
+  "task": "circle",
+  "n_drones": 3,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "videos": {
+    "0": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed0_raw_vs_relative.mp4",
+    "1": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed1_raw_vs_relative.mp4",
+    "2": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed2_raw_vs_relative.mp4",
+    "4": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed4_raw_vs_relative.mp4",
+    "5": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed5_raw_vs_relative.mp4",
+    "6": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed6_raw_vs_relative.mp4",
+    "7": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed7_raw_vs_relative.mp4",
+    "8": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed8_raw_vs_relative.mp4",
+    "9": "results_e08_circle/comparison_videos_n3_allseeds/n3_circle_seed9_raw_vs_relative.mp4"
+  },
+  "failures": {
+    "3": {
+      "raw_error": null,
+      "relative_error": "direct_parse_failed",
+      "raw_valid_code": true,
+      "relative_valid_code": false
+    }
+  }
+}
