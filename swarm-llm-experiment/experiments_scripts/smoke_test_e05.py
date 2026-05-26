@@ -3,7 +3,7 @@ import sys
 import numpy as np
 from pathlib import Path
 SCRIPT_DIR = Path(__file__).parent.resolve()
-sys.path.insert(0, str(SCRIPT_DIR.parent))
+sys.path.insert(0, str(SCRIPT_DIR.parent / "src"))
 from simulator import SwarmSimulator
 
 sim = SwarmSimulator(n_drones=3, gui=False)

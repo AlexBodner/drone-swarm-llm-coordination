@@ -17,7 +17,7 @@ import textwrap
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
-sys.path.insert(0, str(SCRIPT_DIR.parent))
+sys.path.insert(0, str(SCRIPT_DIR.parent / "src"))
 
 RESULTS_PATH  = SCRIPT_DIR / "results_e06" / "results.json"
 OUTPUT_PATH   = SCRIPT_DIR.parent / "pipeline_io_e06.md"

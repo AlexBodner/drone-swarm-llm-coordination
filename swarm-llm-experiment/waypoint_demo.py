@@ -15,6 +15,8 @@ Output: videos/waypoint_demo.mp4, waypoint_demo_result.json, waypoint_demo_log.t
 
 import os
 import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent / "src"))
 import json
 import time
 import traceback

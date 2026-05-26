@@ -53,7 +53,7 @@ import time
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
-sys.path.insert(0, str(SCRIPT_DIR.parent))
+sys.path.insert(0, str(SCRIPT_DIR.parent / "src"))
 
 os.environ.setdefault(
     "GROQ_API_KEY",

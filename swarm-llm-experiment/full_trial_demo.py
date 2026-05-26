@@ -22,6 +22,8 @@ import json
 import os
 import subprocess
 import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent / "src"))
 import traceback
 from pathlib import Path
 
