@@ -65,11 +65,18 @@ To truly test the LLM's "brain," we moved to **Direct JSON Waypoints**. The LLM 
 
 ## 🛠️ Getting Started
 
-1.  **Keys**: Create a `.env` file in `swarm-llm-experiment/` using `.env.example` as a template.
-2.  **Environment**: We recommend a Conda environment with `python=3.10`.
-3.  **Run**:
+1.  **Get a Groq API Key**:
+    - Go to the [Groq Cloud Console](https://console.groq.com/keys).
+    - Create a free account and generate a new API key.
+2.  **Configuration**:
+    - Copy the `.env.example` file to a new file named `.env` in the `swarm-llm-experiment/` directory.
+    - Open `.env` and paste your key: `export GROQ_API_KEY="your_key_here"`.
+3.  **Environment**: We recommend a Conda environment with `python=3.10`.
+4.  **Run**:
     ```bash
     cd swarm-llm-experiment
+    # Ensure your .env is sourced or the key is in your shell
+    source .env
     ./run_demo.sh  # Runs the full trial demo
     ```
 
