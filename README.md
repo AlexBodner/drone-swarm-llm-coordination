@@ -84,4 +84,4 @@ To truly test the LLM's "brain," we moved to **Direct JSON Waypoints**. The LLM 
 
 ## 📈 Key Findings at a Glance
 - **Waypoints vs Endpoints**: Moving from single-target planning to timed waypoints improved convergence accuracy by over **47x**.
-- **Representation Matters**: Raw coordinates are surprisingly robust, while natural language descriptions lose the precision needed for tight formations as N increases.
+- **Representation Matters**: Raw coordinates are surprisingly robust with the current metrics, because its hard to define the formation reward. Natural language descriptions lose the precision needed for tight formations as N increases.
